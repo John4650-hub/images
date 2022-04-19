@@ -1,4 +1,7 @@
-import hello;
+def fizzBuzz(x):
+    pass
 
 def test_hello():
-    assert hello.hello() == "Hello World"
+    assert fizzBuzz(3)=='fizz'
+    assert fizzBuzz(5)== 'Buzz'
+    assert fizzBuzz(15) == 'fizzBuzz'
